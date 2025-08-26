@@ -16,27 +16,26 @@
     header {
       background: linear-gradient(100deg, #1565c0 60%, #43e97b 100%);
       color: #fff;
-      padding: 36px 0 28px 0;
+      padding: 32px 0 20px 0;
       text-align: center;
       box-shadow: 0 2px 8px #0001;
     }
     .logo-img {
       width: 110px;
       max-width: 40vw;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
-    header h1 {
-      font-size: 2.3rem;
-      margin: 0;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-    }
-    header p {
-      font-size: 1.07rem;
+    .header-tagline {
+      font-size: 0.98rem;
       font-style: italic;
-      margin: 0.4em auto 1em auto;
-      max-width: 520px;
       color: #e0f7fa;
+      letter-spacing: 0.01em;
+      margin: 0 auto 10px auto;
+      padding: 0;
+      max-width: 700px;
     }
     nav {
       margin-top: 8px;
@@ -105,7 +104,7 @@
       text-decoration: none;
       border-radius: 30px;
       margin: 0.9em 0 0 0;
-      font-size: 1.2rem;
+      font-size: 1.18rem;
       font-weight: bold;
       transition: background 0.18s;
       cursor: pointer;
@@ -133,8 +132,8 @@
       border: 2px dashed #43e97baa;
     }
     #events-blog p {
-      font-size: 1.25rem;
-      margin-bottom: 0.1em;
+      font-size: 1.23rem;
+      margin-bottom: 0.12em;
       color: #138e6e;
       font-weight: 400;
     }
@@ -155,7 +154,7 @@
       margin-bottom: 0.65em;
     }
     #contact p {
-      font-size: 1.12rem;
+      font-size: 1.09rem;
       color: #323b43;
     }
     #contact .cta-btn {
@@ -176,13 +175,10 @@
 </head>
 <body>
   <header>
-    <!-- LOGO: Place 'tsuf-longname-logo.png' or your favorite version as 'logo.png' in your website folder -->
     <img src="logo.png" alt="TSUF Foundation Logo" class="logo-img">
-    <h1>TSU Foundation</h1>
-    <p>
-      <strong>The Sarvatra Urja Foundation</strong><br>
+    <div class="header-tagline">
       Advancing Environment, Social Development, Health, Heritage & Animal Welfare for a Better Tomorrow
-    </p>
+    </div>
     <nav>
       <a href="#about">About</a>
       <a href="#environment">Environment & Energy</a>
