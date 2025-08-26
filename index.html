@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>TSUF – The Sarvatra Urja Foundation</title>
   <meta name="description" content="The Sarvatra Urja Foundation (TSUF) – Advancing environment, society, health, heritage, and animal welfare.">
+  <!-- Favicon link, make sure favicon.png is present in your root directory -->
+  <link rel="icon" type="image/png" href="favicon.png">
   <style>
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
@@ -16,24 +18,30 @@
     header {
       background: linear-gradient(100deg, #1565c0 60%, #43e97b 100%);
       color: #fff;
-      padding: 32px 0 20px 0;
+      padding: 38px 0 22px 0;
       text-align: center;
       box-shadow: 0 2px 8px #0001;
     }
     .logo-img {
-      width: 110px;
-      max-width: 40vw;
-      margin-bottom: 8px;
+      width: 180px;
+      max-width: 70vw;
+      margin-bottom: 10px;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      filter: drop-shadow(0 8px 16px #1565c035);
+    }
+    @media (max-width: 600px) {
+      .logo-img {
+        width: 120px;
+      }
     }
     .header-tagline {
       font-size: 0.98rem;
       font-style: italic;
       color: #e0f7fa;
       letter-spacing: 0.01em;
-      margin: 0 auto 10px auto;
+      margin: 0 auto 12px auto;
       padding: 0;
       max-width: 700px;
     }
